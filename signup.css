@@ -1,0 +1,119 @@
+#itsSignup{
+    display:block;
+    width: 38%;
+    height:auto;
+    border: 1px solid rgb(69, 69, 69);
+    margin: 20px auto auto auto;
+    border-radius: 5px;
+}
+#acc2{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding:10px 0px;
+    margin: auto;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#beauty{
+    width: 205px;
+    padding-left: 20px;
+}
+#beauty + p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px 50px 0px 20px;
+    line-height: 22px;
+}
+#sheet{
+    width:90%;
+    margin: auto;
+}
+#sheet>input{
+    width:98%;
+    height:40px;
+    margin-bottom: 18px;
+    border: 0.5px solid rgb(154, 154, 154);
+    border-radius: 3px;
+}
+#sheet>input::placeholder{
+    padding-left: 15px;
+    color: rgb(82, 82, 82);
+}
+#sheet>input:nth-child(1){
+    width: 46.5%;
+    height:40px;
+}
+#sheet>input:nth-child(2){
+    margin-left: 12px;
+    width: 46.5%;
+    height:40px;
+}
+#bday{
+    width:5%;
+    margin-bottom: -8px;
+}
+#sheet>p:nth-child(6){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#month{
+    width: 48%;
+    height:45px;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: rgb(91, 91, 91);
+}
+#day{
+    width: 48%;
+    height:45px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+    font-size: 15px;
+    color: rgb(91, 91, 91);
+}
+#sheet>span:nth-child(8)+hr{
+    margin-bottom: 15px;
+}
+#sheet>input:nth-child(10)+hr{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#sheet>input[type="submit"]{
+    width:48%;
+    font-size: 15px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bolder;
+    height:43px;
+    border-radius: 50px;
+}
+#sheet>input[type="submit"]:hover{
+    width:48%;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, red , yellow);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    height:43px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#sheet>input[type="submit"]~p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color:rgb(92, 92, 92);
+}
+#sheet>input[type="submit"]~p>span{
+    color: blue;
+    text-decoration:black underline;
+    cursor: pointer;
+}
+.hr{
+    border-top:0.2px solid rgb(228, 228, 228);
+    border-bottom: none;
+}

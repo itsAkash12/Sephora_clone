@@ -1,0 +1,98 @@
+#head{
+    display: flex;
+    width: 100%;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+}
+
+#head>img{
+    padding: 30px;
+    margin: auto;
+    width:220px;
+}
+#container{
+    width:60%;
+    margin: auto;
+}
+#container>div>img{
+    width:7%;
+}
+#container>div{
+    display:flex;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.5px;
+}
+#container>form{
+    margin-top: 10px;
+    
+}
+#acc,#first,#last{
+    width:340px;
+    height:30px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#cvv,#year,#month{
+    width:162px;
+    height:30px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#submit{
+    width:100px;
+    height:35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:8px;
+    font-size: 17px;
+    text-align: center;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#container>p:nth-child(1){
+    font-family: georgia, times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+#container>p:nth-child(3){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+#enter{
+    width: 200px;
+    margin-left:250px;
+    margin-top: 20px;
+}
+#enter>form>input{
+    width:162px;
+    height:30px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#enter>form>#order{
+    width:202px;
+    height:40px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 25px;
+}
+#enter>form>#order:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

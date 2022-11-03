@@ -1,0 +1,76 @@
+#itsForgot{
+    display:block;
+    width: 37%;
+    height:auto;
+    border: 1px solid rgb(69, 69, 69);
+    margin: 120px auto auto auto;
+    padding:0px 0px 30px 0px;
+    border-radius: 5px;
+}
+#reset{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#itsForgot>p:nth-child(4){
+    width:90%;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 18px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#flip{
+    width:90%;
+    margin: auto;
+}
+#flip>input{
+    width:98%;
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border: 0.5px solid rgb(154, 154, 154);
+    border-radius: 3px;
+}
+#flip>input::placeholder{
+    font-size: 14.5px;
+    padding-left: 15px;
+    color: rgb(82, 82, 82);
+}
+
+#flip>input[type="submit"]{
+    width:49%;
+    font-size: 15px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bolder;
+    height:43px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+#itsForgot>form+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 82, 82);
+    font-size: 12px;
+    font-weight: bold;
+    margin:10px 0px 0px 21px;
+}
+#itsForgot>p:nth-child(7){
+    font-size: 12px;
+    margin:3px 0px 0px 22px;
+    line-height: 18px;
+    padding-right:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#itsForgot>p:nth-child(7)>span{
+    color:blue;
+    text-decoration: underline;
+}
+#hr{
+    border-top:0.2px solid rgb(228, 228, 228);
+    border-bottom: none;
+}

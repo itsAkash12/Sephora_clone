@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div id="head">
+        <img src="https://www.sephora.com/img/ufe/logo.svg" alt="sephora">
+    </div>
+    
+    <div id="container">
+        <p>Checkout</p>
+    <hr>
+        <p>Payment Method</p>
+        <div>
+            <p>Pay With Debit And Credit Card</p>
+            <img src="https://www.sephora.com/img/ufe/payments/sephora.svg" alt="a">
+            <img src="https://www.sephora.com/img/ufe/payments/visa.svg" alt="a">
+            <img src="https://www.sephora.com/img/ufe/payments/masterCard.svg" alt="a">
+            <img src="https://www.sephora.com/img/ufe/payments/americanExpress.svg" alt="a">
+            <img src="https://www.sephora.com/img/ufe/payments/discover.svg" alt="a">
+            <img src="https://www.sephora.com/img/ufe/payments/JCPenney.svg" alt="a">
+        </div>
+        <form id="itsEntry" action="">
+            <input id="acc" type="number" maxlength="12" placeholder="Card Number*"><br>
+            <input id="month" type="number" maxlength="2" placeholder="MM*">
+            <input id="year" type="number" maxlength="2" placeholder="YY*">
+            <input id="cvv" type="number" maxlength="3" placeholder="CVV/CVC*"><br>
+            <input id="first" type="text" placeholder="First*">
+            <input id="last" type="text" placeholder="Last*"><br>
+            <input id="submit" type="submit" value="Send OTP">
+        </form>
+    </div>
+    <div id="enter">
+        <form id="itsOtp" action="">
+            <input id="otp" type="number" maxlength="5" placeholder="Enter OTP">
+            <input id="order" type="submit" value="Place Order">
+        </form>
+    </div>
+</body>
+<script src="checkout.js"></script>
+</html>

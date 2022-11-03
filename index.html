@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="signin.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="forgotpass.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/7a42f325b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="fontainer">
+      <div id="up">
+        <p>
+          <strong>Shop Now, Pay Later</strong>
+          with Klarna or Afterpay.
+          <strong>LEARN MORE▸</strong>
+        </p>
+      </div>
+      <div id="bottom">
+        <div>
+          <img src="https://www.sephora.com/img/ufe/logo.svg" alt="sephora" />
+        </div>
+        <div>
+          <input type="search" placeholder="Search" />
+        </div>
+        <div id="logo">
+          <div>
+            <img
+              src="https://www.sephora.com/img/ufe/icons/stores-active.svg"
+              alt="store"
+            />
+            <span id="house">
+              <strong>Stores & Services</strong> Choose Your Store</span
+            >
+          </div>
+          <div>
+            <img
+              src="https://www.sephora.com/img/ufe/icons/community-active.svg"
+              alt="community"
+            />
+            <span id="community">Community</span>
+          </div>
+          <div>
+            <img
+              src="https://www.sephora.com/img/ufe/icons/me-active.svg"
+              alt="signin"
+            />
+            <span id="sign">Sign IN</span>
+          </div>
+        </div>
+        <div id="logo2">
+          <div>
+            <i class="fa-solid fa-comment-dots"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="down">
+        <div><a href="index.html"> Home</a></div>
+        <div><a href="new.html">New</a></div>
+        <div><a href="all.html">All Brands</a></div>
+        <div><a href="new.html"> Skin Care</a></div>
+        <div><a href="all.html"> Hair</a></div>
+        <div><a href="new.html"> Fragrance</a></div>
+        <div><a href="all.html"> Tools & Brushes</a></div>
+        <div><a href="new.html"> Bath & Body</a></div>
+        <div><a href="all.html"> Mini Size</a></div>
+        <div><a href="new.html"> Gifts</a></div>
+        <div><a href="all.html"> Beauty Under $20</a></div>
+        <div><a href="new.html"> Sale & Offers</a></div>
+      </div>
+    </div>
+
+    <!-- signin popup -->
+
+    <div class="modal_wrapper">
+      <div id="shift">
+        <button class="close">&times;</button>
+        <p id="acc">Sign in to Sephora</p>
+        <form id="lift">
+          <input type="email" placeholder="Email Address*" id="email" />
+          <input type="password" placeholder="Password*" id="password" />
+          <p id="forg">Forgot Password?</p>
+          <input type="submit" value="Sign In" />
+        </form>
+        <hr class="hr" />
+        <p>New to sephora?</p>
+        <button id="create">Create Account</button>
+        <p>Terms of Use <span> & </span>Privacy Policy</p>
+      </div>
+    </div>
+
+    <!-- Sign up -->
+
+    <div class="wrapIt">
+      <div id="itsSignup">
+        <button class="open">&times;</button>
+        <div id="acc2">Create an Account</div>
+        <hr class="hr" />
+        <img
+          id="beauty"
+          src="https://www.sephora.com/img/ufe/bi/logo-beauty-insider.svg"
+          alt="Beauty"
+        />
+        <p>
+          Join the Beauty Insider loyalty program. Earn points, redeem rewards
+          and more.
+        </p>
+        <form id="sheet">
+          <input type="text" placeholder="First Name" id="first" />
+          <input type="text" placeholder="Last Name" id="last" />
+          <input type="email" placeholder="Email Address" id="email2" />
+          <input
+            type="password"
+            placeholder="Password (6 to 12 characters)"
+            id="password2"
+          />
+          <input
+            type="number"
+            placeholder="Phone Number(optional)"
+            id="number"
+          />
+          <p>
+            <img
+              id="bday"
+              src="https://www.sephora.com/img/ufe/icons/birthday.svg"
+              alt="bday"
+            />
+            Enter your birthdate to receive a free gift every year.
+          </p>
+          <span>
+            <select id="month" name="month" id="month">
+              <option value="">Month</option>
+              <option value="01">January</option>
+              <option value="02">February</option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+              <option value="07">July</option>
+              <option value="08">August</option>
+              <option value="09">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </span>
+          <span>
+            <select id="day" name="day" id="day">
+              <option value="">Day</option>
+              <option value="01">1</option>
+              <option value="02">2</option>
+              <option value="03">3</option>
+              <option value="04">4</option>
+              <option value="05">5</option>
+              <option value="06">6</option>
+              <option value="07">7</option>
+              <option value="08">8</option>
+              <option value="09">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+          </span>
+          <hr class="hr" />
+          <input
+            type="number"
+            placeholder="ZIP Code (to hear about store events near you)"
+            id="pin"
+          />
+          <hr class="hr" />
+          <input type="submit" value="Join Now" />
+          <hr class="hr" />
+          <p>
+            By clicking “Join Now” you acknowledge that you are a U.S. or Canada
+            resident and (1) have read Sephora’s <span>Privacy Policy</span> and
+            <span> Notice of Financial Incentive</span>, (2), agree to
+            <span> Terms of Use, Beauty Insider Terms</span>, and to
+            automatically receive Beauty Insider offers and notifications via
+            email.
+          </p>
+          <p>
+            Sephora uses Google ReCaptcha and by registering, users are subject
+            to Google’s <span> privacy policy </span>& <span> terms</span>.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- forgot password -->
+
+    <div class="mWrap">
+      <div id="itsForgot">
+        <button class="again">&times;</button>
+        <p id="reset">Reset Password</p>
+        <hr id="hr" />
+        <p>
+          To have your password reset, enter your email address below. We will
+          then send an email containing a link to reset your password.
+        </p>
+        <form id="flip">
+          <input type="email" placeholder="Email*" id="emailIt" />
+          <input type="submit" value="Send Email" />
+        </form>
+        <p>Still having trouble?</p>
+        <p>
+          If you’re unable to reset your password, please call Customer Service
+          at
+          <span> 1-877-SEPHORA (1-877-737-4672)</span> | TTY
+          <span>1-888-866-9845</span> for assistance.
+        </p>
+      </div>
+    </div>
+
+    <!-- Header Part -->
+    <div>
+      <div id="itsafe">
+        <div id="container">
+          <div class="box">
+            <img
+              src="https://www.sephora.com/contentimages/homepage/071922/Homepage/RWD/2022-07-21-hp-slide-july-clean-planet-positive-skincare-us-ca-rwd-slice.jpeg?imwidth=1096"
+              alt="Must"
+            />
+            <div>
+              <p>Eco-Conscious & So Effective</p>
+              <p>Exceptional beauty</p>
+              <p>SHOP NOW▸</p>
+            </div>
+          </div>
+          <div class="box1">
+            <img
+              id="crauser"
+              src="https://www.sephora.com/contentimages/homepage/070522/Homepage/RWD/2022-07-16-hp-slide-slotting-minis-us-rwd-slice.jpeg?imwidth=1096"
+              alt="Must"
+            />
+            <div>
+              <p>Must-Have Minis</p>
+              <p>Small but mighty picks to pocket right now.</p>
+              <p>SHOP NOW▸</p>
+            </div>
+          </div>
+          <div class="box2">
+            <img
+              src="https://www.sephora.com/contentimages/homepage/070522/Homepage/RWD/2022-07-12-hp-slide-value-sets-us-rwd-slice.jpeg?imwidth=1096"
+              alt="Must"
+            />
+            <div>
+              <p>Value Sets</p>
+              <p>Get the hottest beauty for less.</p>
+              <p>SHOP NOW▸</p>
+            </div>
+          </div>
+          <div class="box3">
+            <img
+              src="https://www.sephora.com/contentimages/homepage/070522/Homepage/RWD/2022-07-08-hp-slide-just-arrived-july-rwd-us-slice.jpeg?imwidth=1096"
+              alt="Must"
+            />
+            <div>
+              <p>The Latest Lineup</p>
+              <p>New beauty from the hottest brands.</p>
+              <p>SHOP NOW▸</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Just Dropped -->
+
+      <div id="safe">
+        <p>Just Dropped</p>
+        <div id="just"></div>
+      </div>
+
+      <!-- for you -->
+
+      <div id="safe2">
+        <p>Chosen For You</p>
+        <div id="foryou"></div>
+      </div>
+
+      <!-- Beauty Offers -->
+
+      <div id="safe3">
+        <p>Beauty Offers (15)</p>
+        <div id="cutie"></div>
+      </div>
+
+      <!-- cards -->
+
+      <div id="safe4">
+        <div id="cards"></div>
+      </div>
+
+      <!-- Categories -->
+
+      <div id="safe5">
+        <div id="category">
+          <div id="except">
+            <p>Featured Categories</p>
+            <p>Shop what's popular now.</p>
+          </div>
+          <div>
+            <p>Minis</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_minis_us_ca_rwd_slice.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Hair Styling & Treatments</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_hair_blowdryer_us_ca_rwd_slice.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Foundation</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_samples_32_us_ca_rwd_slice.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>SPF</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/sun.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Hair Masks</p>
+            <img
+              src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/healthy_hair_guide.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Perfume</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_fragrance_bottle_us_ca_rwd_slice.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Sephora Collection</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_sephoracollection_SC_us_ca_rwd_slice.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Soft Contoured Makeup</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_makeup_mascara_lipstick_us_ca_rwd_slice.jpg"
+              alt=""
+            />
+          </div>
+          <div id="accept">
+            <p>Need a Little Guidance?</p>
+            <p>Check out our quizzes and buying guides.</p>
+          </div>
+          <div>
+            <p>Clean+</p>
+            <img
+              src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/clean_guide.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>No Makeup</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/blush.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Fragrance</p>
+            <img
+              src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/fragrance_quiz.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Skincare Routine</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/sun.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Complexion</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_skincare_quiz_us_ca_rwd_slice.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Haircare</p>
+            <img
+              src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/hair_quiz.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Black-Owned Brands</p>
+            <img
+              src="https://www.sephora.com/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_BOB_us_rwd_slice.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Luxury Beauty</p>
+            <img
+              src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/luxury_beauty.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+  <script src="signin.js"></script>
+  <script src="signup.js"></script>
+  <script src="forgotpass.js"></script>
+</html>

@@ -1,0 +1,109 @@
+#shift{
+    display:block;
+    width: 37%;
+    height:auto;
+    border: 1px solid rgb(69, 69, 69);
+    margin: auto auto auto auto;
+    border-radius: 5px;
+}
+#acc{
+    font-size: 16px;
+    font-weight: bold;
+    padding:10px 0px;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lift{
+    width:90%;
+    margin: auto;
+}
+#lift>input{
+    width:98%;
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border: 0.5px solid rgb(154, 154, 154);
+    border-radius: 3px;
+}
+#lift>input::placeholder{
+    font-size: 14.5px;
+    padding-left: 15px;
+    color: rgb(82, 82, 82);
+}
+#lift>p:nth-child(3){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 300px;
+    text-decoration: underline;
+    color:rgb(19, 107, 234);
+    cursor: pointer;
+}
+#lift>input[type="submit"]{
+    width:49%;
+    font-size: 15px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bolder;
+    height:43px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#lift>input[type="submit"]:hover{
+    width:49%;
+    font-size: 15px;
+    background-image: linear-gradient(to right, red , yellow);
+    color: black;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+    cursor: pointer;
+    border-radius: 50px;
+}
+#shift>p:nth-child(4){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+#create{
+    width:44%;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bolder;
+    height:43px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#create:hover{
+    width:44%;
+    font-size: 15px;
+    background-image: linear-gradient(to right, red , yellow);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    color: black;
+    border: none;
+    font-weight: bolder;
+    height:43px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#shift>p:nth-child(6){
+    color: rgb(19,107,234);
+    font-size: 12px;
+    text-align: center;
+    text-decoration:black underline;
+    cursor: pointer;
+    margin-top: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr{
+    border-top:0.2px solid rgb(228, 228, 228);
+    border-bottom: none;
+}

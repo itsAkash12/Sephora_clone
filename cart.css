@@ -1,0 +1,269 @@
+#container{
+    display: flex;
+    width:85%;
+    margin: auto;
+    gap:30px;
+}
+#container>#left{
+    width:800px;
+    background-color: #f6f6f8;
+    border-radius: 5px;
+}
+#info{
+    padding: 20px;
+    margin:20px;
+    background-color: white;
+}
+#info>div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+}
+#info>div>div:nth-child(1)>span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.5px;
+    cursor: pointer;
+}
+#info>div>div:nth-child(2)>span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-decoration: underline;
+    color:rgb(19, 107, 234);
+    cursor: pointer;
+}
+#info>p:nth-child(1){
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+}
+#info>p:nth-child(1)>span:nth-child(1){
+    font-weight: 700;
+    color: rgb(207, 17, 44);
+    cursor: pointer;
+}
+#info>p:nth-child(1)>span:nth-child(3){
+    font-weight: 400;
+    color: rgb(19, 107, 234);
+    text-decoration: underline;
+    cursor: pointer;
+}
+#info>div:nth-child(2){
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    padding-top: -10px;
+    
+}
+#info>div:nth-child(2)>div{
+    width:300px;
+    text-align: center;
+    border: 1px solid black;
+    padding:10px;
+    padding-top: -10px;
+}
+#right{
+    margin-top: -13px;
+    border:1px solid rgb(191, 191, 191);
+    padding:20px;
+    padding-top: 0px;
+    border-radius: 5px;
+}
+#head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 88px;
+}
+#left>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 15px;
+}
+#right>div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    position: relative;
+}
+#right>div>p>span{
+    position: absolute;
+    right:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+#right>div>p:nth-child(5){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+#right>div>button:nth-child(6){
+    text-align: center;
+    margin: auto;
+    width:260px;
+    padding: 14px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    background-color: #fb2f4d;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+#right>div>button:nth-child(6)>a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#right>div>button:nth-child(6):hover{
+    background-color:#cf112c ;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    border: none;
+    color:whitesmoke;
+}
+#right>div>button:nth-child(6):active{
+    transform: scale(0.7);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+#right>div>button:nth-child(7){
+    text-align: center;
+    margin: auto;
+    width:260px;
+    padding: 14px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    cursor: pointer;
+}
+#right>div>button:nth-child(7):hover{
+    background-color: rgb(99, 194, 254);
+}
+#right>div:nth-child(2){
+    border: 1px solid grey;
+    padding:7px;
+    margin-top: 10px;
+}
+#right>div:nth-child(2)>form>input{
+    width:250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#right>div:nth-child(2)>form>input:nth-child(2){
+    margin-left:38px;
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color:white;
+    background-color: black;
+}
+#right>div:nth-child(2)>form>input:nth-child(2):hover{
+    margin-left:5px;
+    width: 250px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 14px;
+    color: black;
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+    border: none;
+}
+#cart>#box{
+    display:grid;
+    grid-template-columns: 110px repeat(2,1fr);
+}
+#cart>#box>div{
+    margin-bottom: 10px;
+}
+#cart>#box>div:nth-child(2)>p:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+
+}
+#cart>#box>div:nth-child(2)>p:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    margin-top: -10px;
+}
+#cart>#box>div:nth-child(2)>p:nth-child(3){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color:  rgb(19, 107, 234);
+}
+#cart>#box>div:nth-child(2)>p:nth-child(3):hover{
+    text-decoration: underline rgb(19, 107, 234);
+    cursor:pointer;
+}
+#cart>#box>div:nth-child(2)>p:nth-child(2):hover,#cart>#box>div:nth-child(2)>p:nth-child(1):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#cart>#box>div:nth-child(3){
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+
+}
+#cart>#box>div>img{
+    width:100px;
+}
+#cart>#box>div:nth-child(3)>button{
+    border-radius: 20px;
+    border: none;
+    padding:5px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: 0.2s all;
+}
+#cart>#box>div:nth-child(3)>button:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    border: none;
+    color:whitesmoke;
+    
+}
+#cart>#box>div:nth-child(3)>button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}

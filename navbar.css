@@ -1,0 +1,143 @@
+html,body{
+    width:100%;
+}
+#fontainer{
+    width: 100%;
+}
+#up{
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-left:-20px;
+    padding: 22px 0px;
+    display: flex;
+    background-color: #d1e3f7;
+    cursor: pointer;
+}
+#up:hover{
+    text-decoration: underline;
+}
+#up>p{
+    display:flex;
+    margin:auto;
+    /* margin-left:31.5%; */
+}
+#bottom{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 40px 0px 20px 0px;
+}
+#bottom>div:nth-child(1)>img{
+    
+    width: 125px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+#bottom>div:nth-child(2)>input{
+    width:420px;
+    margin-left: 30px;
+    margin-top: -8px;
+    height:35px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+}
+#logo{
+    display: grid;
+    width: 550px;
+    margin-left: 40px;
+    grid-template-columns: repeat(3,1fr);
+    cursor: pointer;
+}
+#logo>div{
+    display:flex;
+}
+#logo>div:nth-child(1)>img{
+    width:20%;
+    height:70%;
+}
+#logo>div:nth-child(2)>img{
+    width:15%;
+    height: 70%;
+    margin-left: -5px;
+}
+#logo>div:nth-child(3)>img{
+    width: 35px;
+    height:90%;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+#logo>div>img:hover{
+    transform-style: preserve-3d;
+}
+#logo>div>span{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo>div>span:hover{
+    text-decoration: underline;
+}
+#logo>div:nth-child(3)>a{
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#house{
+    margin-top: -5px;
+    padding-left: 10px;
+}
+#community{
+    padding-left: 10px;
+    margin-top: 0px;
+}
+#sign{
+    padding-left: 10px;
+    margin-top: 0px;
+}
+#logo2{
+    margin-top: -5px;
+    margin-left: -80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px
+}
+.fa-solid{
+    color: black;
+    font-size: 25px;
+    /* text-shadow: 0 0 3px #000000, 0 0 5px #000000; */
+    cursor: pointer;
+}
+.fa-solid:hover{
+    color: whitesmoke;
+    font-size: 25px;
+    text-shadow: 0 0 3px #000000, 0 0 10px #000000;
+    cursor: pointer;
+}
+#down{
+    display: grid;
+    width:101%;
+    background-color: black;
+    grid-template-columns: repeat(12,auto);
+    text-align: center;
+    padding: 13px 6px;
+    margin-left: -20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+#down>div>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#down>div>a:hover{
+    text-decoration: underline whitesmoke;
+}
